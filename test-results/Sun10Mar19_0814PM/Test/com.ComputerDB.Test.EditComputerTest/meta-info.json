@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "openBrowserEnterUrlAndVerifyEditedComputer",
+        "resultFileName": "OpenBrowserEnterUrlAndVerifyEditedComputer",
+        "sign": "EditComputerTest.openBrowserEnterUrlAndVerifyEditedComputer()[pri:0, instance:com.ComputerDB.Test.EditComputerTest@5ed828d]"
+      },
+      "dependsOn": [],
+      "startTime": 1552270449872,
+      "duration": 8683,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

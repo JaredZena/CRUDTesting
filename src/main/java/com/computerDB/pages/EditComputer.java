@@ -1,7 +1,5 @@
 package com.computerDB.pages;
 
-import java.security.SecureRandom;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -12,8 +10,6 @@ import org.openqa.selenium.support.ui.Select;
 
 public class EditComputer {
 	WebDriver driver;
-	public static String CompNameAfterUpdate;
-	public static String CompNameBeforeUpdate;
 
 	public EditComputer(WebDriver driver) {
 		this.driver = driver;
@@ -39,38 +35,40 @@ public class EditComputer {
 	@FindBy(how = How.XPATH, using = ".//input[@value='Save this computer']")
 	@CacheLookup
 	WebElement btnSaveComputer;
+	
+	@FindBy(how = How.XPATH, using ="//div[contains(.,'updated')]")
+	@CacheLookup
+	WebElement labelUpdatedComputer;
 
 	/**
 	 * Edit computer by editing all fields of edit computer Enter random string
 	 * to computer name
 	 */
-	public void editComputer() {
-		CompNameBeforeUpdate = tboxComputerName.getAttribute("value");
+	public void editComputer(String computerName, String introducedDate,
+			String discontinuedDate, String company) {
 		tboxComputerName.clear();
-		CompNameAfterUpdate = randomString(4);
-		tboxComputerName.sendKeys(CompNameAfterUpdate);
-		tboxComputerName.sendKeys(CompNameAfterUpdate);
+		tboxComputerName.sendKeys(computerName);
 		tboxIntroducedDate.clear();
-		tboxIntroducedDate.sendKeys("2001-01-08");
+		tboxIntroducedDate.sendKeys(introducedDate);
 		tboxDiscontinuedDate.clear();
-		tboxDiscontinuedDate.sendKeys("2006-01-10");
+		tboxDiscontinuedDate.sendKeys(discontinuedDate);
 		dbtnCompany.click();
 		Select dropdown = new Select(dbtnCompany);
-		dropdown.selectByVisibleText("RCA");
+		dropdown.selectByVisibleText(company);
 		dbtnCompany.click();
+	}
+	
+	/**
+	 * Click on Save this computer.
+	 */
+	public void clickSave() {
 		btnSaveComputer.click();
 	}
-
+	
 	/**
-	 * To generate random string
+	 * Validate the label of updated computer appears.
 	 */
-	static final String random = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	static SecureRandom rnd = new SecureRandom();
-
-	String randomString(int len) {
-		StringBuilder sb = new StringBuilder(len);
-		for (int i = 0; i < len; i++)
-			sb.append(random.charAt(rnd.nextInt(random.length())));
-		return sb.toString();
+	public boolean validateUpdatedLabel() {
+		return labelUpdatedComputer.isDisplayed();
 	}
 }

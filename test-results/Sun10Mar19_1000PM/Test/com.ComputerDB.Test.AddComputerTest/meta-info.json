@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "openBrowserEnterUrlAndVerifyAddedComputer",
+        "resultFileName": "OpenBrowserEnterUrlAndVerifyAddedComputer",
+        "sign": "AddComputerTest.openBrowserEnterUrlAndVerifyAddedComputer()[pri:0, instance:com.ComputerDB.Test.AddComputerTest@c46bcd4]"
+      },
+      "dependsOn": [],
+      "startTime": 1552276801396,
+      "duration": 8687,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

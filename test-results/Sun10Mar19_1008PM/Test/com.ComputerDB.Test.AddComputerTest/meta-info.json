@@ -1,0 +1,29 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "<?xml version=\"1.0\" encoding=\"UTF-8\"?>": "    <testdata>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "src/resources/data/data.xml",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "testdata.computers.computer1",
+        "name": "openBrowserEnterUrlAndVerifyAddedComputer",
+        "resultFileName": "OpenBrowserEnterUrlAndVerifyAddedComputer",
+        "sheetName": "",
+        "sign": "AddComputerTest.openBrowserEnterUrlAndVerifyAddedComputer(java.util.Map)[pri:0, instance:com.ComputerDB.Test.AddComputerTest@60285225]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1552277297670,
+      "duration": 8635,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

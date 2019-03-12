@@ -23,7 +23,7 @@ public class BrowserFactory{
 			return driver;
 		}
 		 if(browserName.equalsIgnoreCase("Chrome")){
-			System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe"); 
+			System.setProperty("webdriver.chrome.driver","C:\\drivers\\chromedriver.exe");//Specify driver location 
 			WebDriver driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.get(url);

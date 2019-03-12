@@ -9,7 +9,17 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.2.0</version>
+			<version>3.14.0</version>
+		</dependency>
+		<dependency>
+    		<groupId>com.itextpdf</groupId>
+    		<artifactId>itextpdf</artifactId>
+    		<version>5.5.13</version>
+		</dependency>
+		<dependency>
+    		<groupId>com.qmetry</groupId>
+    		<artifactId>qaf</artifactId>
+    		<version>2.1.14-RC1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.testng</groupId>

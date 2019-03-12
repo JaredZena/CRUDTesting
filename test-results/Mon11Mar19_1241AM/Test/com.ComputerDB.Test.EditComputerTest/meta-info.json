@@ -1,0 +1,33 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        "Absolut245",
+        "2010-01-05",
+        "2150-03-10",
+        "Sony",
+        "ABC245"
+      ],
+      "metaData": {
+        "groups": [],
+        "name": "openBrowserEnterUrlAndVerifyEditedComputer",
+        "resultFileName": "OpenBrowserEnterUrlAndVerifyEditedComputer",
+        "sign": "EditComputerTest.openBrowserEnterUrlAndVerifyEditedComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ComputerDB.Test.EditComputerTest@1500955a]",
+        "value": [
+          "VEcomputerName",
+          "VEintroducedDate",
+          "VEdiscontinuedDate",
+          "VEcompany",
+          "VAcomputerName"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1552286514594,
+      "duration": 6281,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

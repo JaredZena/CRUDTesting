@@ -1,0 +1,48 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        "ABC245",
+        "2019-03-09",
+        "2019-03-10",
+        "IBM",
+        true
+      ],
+      "metaData": {
+        "groups": [],
+        "name": "openBrowserEnterUrlAndVerifyAddedComputer",
+        "resultFileName": "OpenBrowserEnterUrlAndVerifyAddedComputer",
+        "sign": "AddComputerTest.openBrowserEnterUrlAndVerifyAddedComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean)[pri:0, instance:com.ComputerDB.Test.AddComputerTest@38bc8ab5]"
+      },
+      "dependsOn": [],
+      "startTime": 1552360246522,
+      "duration": 16025,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        "",
+        "d",
+        "m",
+        "IBM",
+        false
+      ],
+      "metaData": {
+        "groups": [],
+        "name": "openBrowserEnterUrlAndVerifyAddedComputer",
+        "resultFileName": "OpenBrowserEnterUrlAndVerifyAddedComputerwQesfShzDI",
+        "sign": "AddComputerTest.openBrowserEnterUrlAndVerifyAddedComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean)[pri:0, instance:com.ComputerDB.Test.AddComputerTest@38bc8ab5]"
+      },
+      "dependsOn": [],
+      "startTime": 1552360262776,
+      "duration": 12664,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

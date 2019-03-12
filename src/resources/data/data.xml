@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <testdata>
+        <computers>
+             <computer1>
+             	<computerName>Absolute</computerName>
+             	<introducedDate>2019-03-09</introducedDate>
+             	<discontinuedDate>2019-03-10</discontinuedDate>
+             	<company>IBM</company>
+             </computer1>
+             <computer2>
+             </computer2>
+        </computers>
+    </testdata>

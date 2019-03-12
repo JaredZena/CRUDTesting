@@ -1,0 +1,31 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        "ABC2",
+        "2019-03-09",
+        "2019-03-10",
+        "IBM"
+      ],
+      "metaData": {
+        "groups": [],
+        "name": "openBrowserEnterUrlAndVerifyAddedComputer",
+        "resultFileName": "OpenBrowserEnterUrlAndVerifyAddedComputer",
+        "sign": "AddComputerTest.openBrowserEnterUrlAndVerifyAddedComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ComputerDB.Test.AddComputerTest@37d31475]",
+        "value": [
+          "computerName",
+          "introducedDate",
+          "discontinuedDate",
+          "company"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1552280724072,
+      "duration": 7767,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

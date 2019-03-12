@@ -1,0 +1,50 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        "Absolut188",
+        "2013-12-25",
+        "2017-05-21",
+        "Sony",
+        "ABC245",
+        true
+      ],
+      "metaData": {
+        "groups": [],
+        "name": "openBrowserEnterUrlAndVerifyEditedComputer",
+        "resultFileName": "OpenBrowserEnterUrlAndVerifyEditedComputer",
+        "sign": "EditComputerTest.openBrowserEnterUrlAndVerifyEditedComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean)[pri:0, instance:com.ComputerDB.Test.EditComputerTest@6c40365c]"
+      },
+      "dependsOn": [],
+      "startTime": 1552366319705,
+      "duration": 7453,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        "",
+        "d",
+        "m",
+        "IBM",
+        "ABC245",
+        false
+      ],
+      "metaData": {
+        "groups": [],
+        "name": "openBrowserEnterUrlAndVerifyEditedComputer",
+        "resultFileName": "OpenBrowserEnterUrlAndVerifyEditedComputerpKIDlhEZjt",
+        "sign": "EditComputerTest.openBrowserEnterUrlAndVerifyEditedComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean)[pri:0, instance:com.ComputerDB.Test.EditComputerTest@6c40365c]"
+      },
+      "dependsOn": [],
+      "startTime": 1552366327364,
+      "duration": 4568,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

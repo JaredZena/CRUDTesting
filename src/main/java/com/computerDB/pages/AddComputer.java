@@ -11,7 +11,6 @@ import org.openqa.selenium.support.ui.Select;
 public class AddComputer {
 
 	WebDriver driver;
-	public static String newCompName = "ABC";
 
 	public AddComputer(WebDriver driver) {
 		this.driver = driver;
@@ -37,18 +36,37 @@ public class AddComputer {
 	@FindBy(how = How.XPATH, using = ".//input[@type='submit']")
 	@CacheLookup
 	WebElement btnCreateComputer;
+	
+	@FindBy(how = How.NAME, using = "created")
+	@CacheLookup
+	WebElement labelCreatedComputer;
 
 	/**
 	 * Add new computer by entering value to all fields.
 	 */
-	public void addNewComputer() {
-		tboxComputerName.sendKeys(newCompName);
-		tboxIntroducedDate.sendKeys("2001-01-01");
-		tboxDiscontinuedDate.sendKeys("2006-01-01");
+	public void addNewComputer(String computerName, String introducedDate,
+			String discontinuedDate, String company) {
+		tboxComputerName.sendKeys(computerName);
+		tboxIntroducedDate.sendKeys(introducedDate);
+		tboxDiscontinuedDate.sendKeys(discontinuedDate);
 		dbtnCompany.click();
 		Select dropdown = new Select(dbtnCompany);
-		dropdown.selectByVisibleText("IBM");
+		dropdown.selectByVisibleText(company);
 		dbtnCompany.click();
+	}
+
+	/**
+	 * Click on create a new computer.
+	 */
+	public void clickCreate() {
 		btnCreateComputer.click();
 	}
+	
+	/**
+	 * Validate the label of created computer appears.
+	 */
+	public boolean validateCreatedLabel() {
+		return labelCreatedComputer.isDisplayed();
+	}
+	
 }

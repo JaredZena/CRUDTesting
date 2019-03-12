@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        "Absolut188",
+        "2013-12-25",
+        "2017-05-21",
+        "Nokia",
+        true
+      ],
+      "metaData": {
+        "groups": [],
+        "name": "openBrowserEnterUrlAndVerifyCancelAddedComputer",
+        "resultFileName": "OpenBrowserEnterUrlAndVerifyCancelAddedComputer",
+        "sign": "CancelAddComputerTest.openBrowserEnterUrlAndVerifyCancelAddedComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean)[pri:0, instance:com.ComputerDB.Test.CancelAddComputerTest@45820e51]"
+      },
+      "dependsOn": [],
+      "startTime": 1552371408935,
+      "duration": 8870,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

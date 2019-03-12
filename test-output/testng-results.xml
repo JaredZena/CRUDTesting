@@ -1,17 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8184" started-at="2017-02-26T18:45:04Z" finished-at="2017-02-26T18:45:12Z">
+  <suite name="Suite" duration-ms="53504" started-at="2019-03-12T06:16:37Z" finished-at="2019-03-12T06:17:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8184" started-at="2017-02-26T18:45:04Z" finished-at="2017-02-26T18:45:12Z">
-      <class name="com.ComputerDB.Test.EditComputerTest">
-        <test-method status="PASS" signature="openBrowserEnterUrlAndVerifyEditedComputer()[pri:0, instance:com.ComputerDB.Test.EditComputerTest@27efef64]" name="openBrowserEnterUrlAndVerifyEditedComputer" duration-ms="8152" started-at="2017-02-26T13:45:04Z" finished-at="2017-02-26T13:45:12Z">
+    <test name="Test" duration-ms="53504" started-at="2019-03-12T06:16:37Z" finished-at="2019-03-12T06:17:31Z">
+      <class name="com.ComputerDB.Test.CancelEditComputerTest">
+        <test-method status="PASS" signature="openBrowserEnterUrlAndVerifyCancelEditComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean)[pri:0, instance:com.ComputerDB.Test.CancelEditComputerTest@7a9273a8]" name="openBrowserEnterUrlAndVerifyCancelEditComputer" duration-ms="11149" started-at="2019-03-12T00:16:37Z" data-provider="getData" finished-at="2019-03-12T00:16:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Absolut188]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2013-12-25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2017-05-21]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowserEnterUrlAndVerifyCancelEditComputer -->
+      </class> <!-- com.ComputerDB.Test.CancelEditComputerTest -->
+      <class name="com.ComputerDB.Test.CancelAddComputerTest">
+        <test-method status="PASS" signature="openBrowserEnterUrlAndVerifyCancelAddedComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean)[pri:0, instance:com.ComputerDB.Test.CancelAddComputerTest@45820e51]" name="openBrowserEnterUrlAndVerifyCancelAddedComputer" duration-ms="8870" started-at="2019-03-12T00:16:48Z" data-provider="getData" finished-at="2019-03-12T00:16:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Absolut188]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2013-12-25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2017-05-21]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowserEnterUrlAndVerifyCancelAddedComputer -->
+      </class> <!-- com.ComputerDB.Test.CancelAddComputerTest -->
+      <class name="com.ComputerDB.Test.AddComputerTest">
+        <test-method status="PASS" signature="openBrowserEnterUrlAndVerifyAddedComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean)[pri:0, instance:com.ComputerDB.Test.AddComputerTest@42d8062c]" name="openBrowserEnterUrlAndVerifyAddedComputer" duration-ms="8076" started-at="2019-03-12T00:16:57Z" data-provider="getData" finished-at="2019-03-12T00:17:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC245]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2019-03-09]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-03-10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[IBM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowserEnterUrlAndVerifyAddedComputer -->
+        <test-method status="PASS" signature="openBrowserEnterUrlAndVerifyAddedComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean)[pri:0, instance:com.ComputerDB.Test.AddComputerTest@42d8062c]" name="openBrowserEnterUrlAndVerifyAddedComputer" duration-ms="7786" started-at="2019-03-12T00:17:06Z" data-provider="getData" finished-at="2019-03-12T00:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[IBM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowserEnterUrlAndVerifyAddedComputer -->
+      </class> <!-- com.ComputerDB.Test.AddComputerTest -->
+      <class name="com.ComputerDB.Test.EditComputerTest">
+        <test-method status="PASS" signature="openBrowserEnterUrlAndVerifyEditedComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean)[pri:0, instance:com.ComputerDB.Test.EditComputerTest@6043cd28]" name="openBrowserEnterUrlAndVerifyEditedComputer" duration-ms="8299" started-at="2019-03-12T00:17:13Z" data-provider="getData" finished-at="2019-03-12T00:17:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Absolut188]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2013-12-25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2017-05-21]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sony]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ABC245]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowserEnterUrlAndVerifyEditedComputer -->
+        <test-method status="PASS" signature="openBrowserEnterUrlAndVerifyEditedComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean)[pri:0, instance:com.ComputerDB.Test.EditComputerTest@6043cd28]" name="openBrowserEnterUrlAndVerifyEditedComputer" duration-ms="8733" started-at="2019-03-12T00:17:22Z" data-provider="getData" finished-at="2019-03-12T00:17:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[IBM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ABC245]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openBrowserEnterUrlAndVerifyEditedComputer -->
       </class> <!-- com.ComputerDB.Test.EditComputerTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

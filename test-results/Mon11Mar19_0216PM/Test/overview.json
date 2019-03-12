@@ -1,0 +1,12 @@
+{
+  "total": 4,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.ComputerDB.Test.CancelEditComputerTest",
+    "com.ComputerDB.Test.CancelAddComputerTest"
+  ],
+  "startTime": 1552335415290,
+  "endTime": 1552335421275
+}

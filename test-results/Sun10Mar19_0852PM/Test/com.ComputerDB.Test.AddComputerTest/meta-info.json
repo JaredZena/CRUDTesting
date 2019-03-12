@@ -1,0 +1,54 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "<?xml version=\"1.0\" encoding=\"UTF-8\"?>": "    <testdata>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "src/resources/data/data.xml",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "testdata.computers.computer1",
+        "name": "openBrowserEnterUrlAndVerifyAddedComputer",
+        "resultFileName": "OpenBrowserEnterUrlAndVerifyAddedComputer",
+        "sheetName": "",
+        "sign": "AddComputerTest.openBrowserEnterUrlAndVerifyAddedComputer(java.util.Map)[pri:0, instance:com.ComputerDB.Test.AddComputerTest@60285225]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1552272744608,
+      "duration": 7044,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "<?xml version=\"1.0\" encoding=\"UTF-8\"?>": "        <computers>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "src/resources/data/data.xml",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "testdata.computers.computer1",
+        "name": "openBrowserEnterUrlAndVerifyAddedComputer",
+        "resultFileName": "OpenBrowserEnterUrlAndVerifyAddedComputervHZmvXMkOu",
+        "sheetName": "",
+        "sign": "AddComputerTest.openBrowserEnterUrlAndVerifyAddedComputer(java.util.Map)[pri:0, instance:com.ComputerDB.Test.AddComputerTest@60285225]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1552272751803,
+      "duration": 4792,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

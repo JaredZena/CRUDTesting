@@ -1,0 +1,36 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "openBrowserEnterUrlAndVerifyEditedComputer",
+        "resultFileName": "OpenBrowserEnterUrlAndVerifyEditedComputer",
+        "sign": "EditComputerTest.openBrowserEnterUrlAndVerifyEditedComputer()[pri:0, instance:com.ComputerDB.Test.EditComputerTest@c46bcd4]"
+      },
+      "dependsOn": [],
+      "startTime": 1552276620911,
+      "duration": 8235,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "openBrowserEnterUrlAndVerifyEditedComputer",
+        "resultFileName": "OpenBrowserEnterUrlAndVerifyEditedComputerrUurqBNfiV",
+        "sign": "EditComputerTest.openBrowserEnterUrlAndVerifyEditedComputer()[pri:0, instance:com.ComputerDB.Test.EditComputerTest@c46bcd4]"
+      },
+      "dependsOn": [],
+      "startTime": 1552276653339,
+      "duration": 8268,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
